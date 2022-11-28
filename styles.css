@@ -12,7 +12,7 @@ body
 
 .top-banner p
 {
-    padding: 5px 0;
+    padding: 8px 0;
     margin: 0;
     text-align: center;
 }
@@ -20,7 +20,7 @@ body
 .menu-top-container
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 15px;
     margin: 0 auto;
@@ -29,6 +29,63 @@ body
 .logo-container img 
 {
     width: 167px;
+    margin-right: 110px;
+}
+
+.searchBar
+{
+    margin-right: 100px;
+    width: 460px;
+    border: solid 1px rgb(10, 0, 41);
+}
+
+.searchBar form
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBar input
+{
+    display: block;
+    flex: 80%;
+    outline: none;
+    padding: 12px;
+    font-size: 12px;
+    border-style: none;
+}
+
+.searchBar button
+{
+    cursor: pointer;
+    border-style: none;
+    padding: 8px;
+}
+
+.searchBar i 
+{
+    font-size: 22px;
+}
+
+.asideNav-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.asideNav-container div
+{
+    width: 63px;
+}
+
+.asideNav-container i
+{
+    font-size: 20px;
+}
+
+.asideNav-container p
+{
+    font-size: 10px;
 }
 
 nav
