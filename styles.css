@@ -75,29 +75,45 @@ body
 
 .asideNav-container div
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 63px;
+}
+
+.asideNav-container div:hover
+{
+    color: #0012FF;
+    cursor: pointer;
 }
 
 .asideNav-container i
 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .asideNav-container p
 {
     font-size: 10px;
+    margin: 2px 0 0 0;
 }
 
 nav
 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 66px;
+    padding: 15px;
+    position: relative;
 }
 
 .topmenu
 {
     display: flex;
     justify-content: center;
+    margin-right: 100px;
 }
 
 .topmenu div
@@ -121,4 +137,58 @@ nav a:hover
 {
     font-weight: bold;
     color: #E30613;
+}
+
+.icon-cart-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-cart-container:hover p
+{
+    color: #0012FF;
+}
+
+.icon-cart-container i
+{
+    font-size: 24px;
+}
+
+.icon-cart-container p:hover
+{
+    color: #0012FF;
+    cursor: pointer;
+}
+
+.icon-cart-container p
+{
+    font-size: 10px;
+    margin: 2px 0 0 0;
+}
+
+.topmenu::after
+{
+    content: "0";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 18px;
+    height: 18px;
+
+    position: relative;
+    left: 148px;
+    bottom: 20px;
+
+    background-color: #0012FF;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    z-index: 1;
 }
