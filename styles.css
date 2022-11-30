@@ -192,3 +192,63 @@ nav a:hover
     border-radius: 15px;
     z-index: 1;
 }
+
+.video-section
+{
+    display: flex;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.video-container
+{
+    flex: 1;
+    padding-right: 15px;
+}
+
+.video-container video
+{
+    height: 384px;
+}
+
+.desc-video-container   
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin: auto;
+    width: 95%;
+    height: 384px;
+    padding: 0 30px;
+}
+
+.desc-video-container h1
+{
+    color: #0a0029;
+    font-size: 32px;
+    margin: 0 0 1rem 0;
+}
+
+.desc-video-container  p
+{
+    margin-top: 0;
+    color: #0a0029;
+    font-size: 16px;
+}
+
+.desc-video-container  button
+{
+    padding: 13px 30px;
+    color: #FFF;
+    background-color: #0a0029;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    width: 186px;
+}
+
+.desc-video-container  button:hover
+{
+    background-color: #0012FF;
+}
