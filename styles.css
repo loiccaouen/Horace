@@ -284,6 +284,7 @@ nav a:hover
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+    padding: 16px 0 48px 0;
 }
 
 .card-product
@@ -433,7 +434,7 @@ nav a:hover
 {
     display: flex;
     justify-content: center;
-    margin: 0 140px;
+    margin: 0 140px 48px 140px;
 }
 
 .desc-section-container
@@ -444,16 +445,94 @@ nav a:hover
     align-items: center;
     background-color: #0a0029;
     color: #FFF;
-    width: 40%;
+    width: 34%;
     padding: 32px;
 }
 
 .desc-avis
 {
     font-size: 32px;
+    margin-bottom: 12px;
+    margin-top: 0;
 }
 
-.avis-container
+.subtitle-desc-avis
 {
-    width: 60%;
+    font-size: 15px;
+    margin: 0 0 16px 0;
+}
+
+.mark-avis
+{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 24px 0;
+}
+
+.nb-avis
+{
+    font-size: 16px;
+}
+
+.desc-section-container a
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.desc-section-container a:hover
+{
+    text-decoration: none;
+}
+
+.rightpart-avis
+{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 66%;
+}
+
+.rightpart-avis h3
+{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+}
+
+.avis-card
+{
+    display: flex;
+}
+
+.part1-card
+{
+    margin-right: 30px;
+}
+
+.nameofauthorofavis
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.checkUser-container
+{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checkUser-container p
+{
+    margin: 0;
+}
+
+.checkUser-container i
+{
+    color: #0012FF;
 }
