@@ -428,3 +428,32 @@ nav a:hover
     text-transform: uppercase;
     padding: 12px 8px;
 }
+
+.avis-section
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 140px;
+}
+
+.desc-section-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0029;
+    color: #FFF;
+    width: 40%;
+    padding: 32px;
+}
+
+.desc-avis
+{
+    font-size: 32px;
+}
+
+.avis-container
+{
+    width: 60%;
+}
