@@ -258,6 +258,7 @@ nav a:hover
     flex-direction: column;
     align-items: center;
     padding: 48px 0;
+    background: #F7F4F1;
 }
 
 .product-title
@@ -294,7 +295,8 @@ nav a:hover
     align-items: center;
     padding: 20px;
     min-width: 220px;
-    max-height: 415px;
+    /* max-height: 415px; */
+    background-color: #FFF;
 }
 
 .card-product:last-child .name-product
@@ -393,6 +395,7 @@ nav a:hover
     font-size: 14px;
     font-weight: bold;
     color: #0a0029;
+    background-color: #FFF;
     padding: 12px 8px;
     border: 2px solid #0a0029;
     width: 100%;
@@ -428,6 +431,11 @@ nav a:hover
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 12px 8px;
+}
+
+.sectionOfavis
+{
+    background-color: #F7F4F1;
 }
 
 .avis-section
@@ -492,7 +500,13 @@ nav a:hover
     display: flex;
     flex-direction: column;
     padding: 32px;
-    width: 66%;
+    width: 51%;
+    background: #FFF;
+}
+
+.rightpart-avis > .mb
+{
+    margin-bottom: 24px;
 }
 
 .rightpart-avis h3
@@ -509,6 +523,7 @@ nav a:hover
 
 .part1-card
 {
+    width: 20%;
     margin-right: 30px;
 }
 
@@ -525,6 +540,7 @@ nav a:hover
     align-items: center;
     font-size: 12px;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .checkUser-container p
@@ -535,4 +551,69 @@ nav a:hover
 .checkUser-container i
 {
     color: #0012FF;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ageofauthor
+{
+    font-size: 12px;
+    margin: 0 0 8px 0;
+    color: #9CA3AF;
+}
+
+.part2-card
+{
+    width: 78%;
+}
+
+.header-avis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.nameofproduct
+{
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+}
+
+.nameofproduct:hover
+{
+    color: #0012FF;
+    text-decoration: underline;
+}
+
+.dateofavis
+{
+    margin: 0;
+    font-size: 12px;
+    color: #9CA3AF;
+}
+
+.blueStars-block 
+{
+    margin-bottom: 4px;
+}
+
+.blueStars-block i
+{
+    color: #0012FF;
+    margin-right: -6px;
+    font-size: 14px;
+}
+
+.titleofavis
+{
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.txtofavis
+{
+    font-size: 15px;
+    margin: 0;
 }
