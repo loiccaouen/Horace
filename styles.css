@@ -442,7 +442,7 @@ nav a:hover
 {
     display: flex;
     justify-content: center;
-    margin: 0 140px 48px 140px;
+    margin: 0 140px 96px 140px;
 }
 
 .desc-section-container
@@ -616,4 +616,93 @@ nav a:hover
 {
     font-size: 15px;
     margin: 0;
+}
+
+.more-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+    color: #FFF;
+    background-color: #0a0029;
+}
+
+.more-section h3
+{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.more-section a
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.section-besoins-boutiques-conseils-newsletter
+{
+    background-color: #F7F4F1;
+    padding: 48px 0;
+}
+
+.besoins
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.besoins h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+.besoins h2::after
+{
+    content: "";
+    display: block;
+    margin-top: 16px;
+    background-color: #0a0029;
+    width: 100px;
+    height: 6px;
+}
+
+.grille-besoins
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.grille-besoins div
+{
+    position: relative;
+    cursor: pointer;
+}
+
+.grille-besoins p
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #FFF;
+    position: absolute;
+    right: 22px;
+    bottom: 14px;
+}
+
+.grille-besoins p:hover
+{
+    text-decoration: none;
 }
