@@ -655,6 +655,7 @@ nav a:hover
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 141px 48px;
 }
 
 .besoins h2
@@ -706,3 +707,164 @@ nav a:hover
 {
     text-decoration: none;
 }
+
+.boutiques-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 48px 15px;
+    margin: auto;
+}
+
+.leftpart-boutiques
+{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 35px;
+}
+
+.leftpart-boutiques h2
+{
+    font-size: 32px;
+    margin: 0 0 16px 0;
+}
+
+.leftpart-boutiques p
+{
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.leftpart-boutiques button
+{
+    width: 145px;
+    color: #FFF;
+    background-color: #0a0029;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 13px 35px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.leftpart-boutiques button:hover
+{
+    background-color: #0012FF;
+}
+
+.rightpart-boutiques
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container-boutiques
+{
+    cursor: grab;
+    position: relative;
+}
+
+.rightpart-boutiques a
+{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 8px;
+    color: #FFF;
+    background-color: #0a0029;
+}
+
+.circle-container
+{
+    margin-top: 10px;
+}
+
+.circle-container i
+{
+    font-size: 12px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fill
+{
+    font-weight: bold;
+}
+
+.conseils-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.conseils-container h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    margin: 0 0 48px;
+    text-align: center;
+}
+
+.conseils-container h2::after
+{
+    content: "";
+    display: block;
+    margin-top: 16px;
+    background-color: #0a0029;
+    width: 100px;
+    height: 6px;
+}
+
+.conseils
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.conseil-container
+{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guideETconseils
+{
+    margin: 25px 0 0 0;
+    font-size: 12px;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.conseil-desc
+{
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.arrow-container 
+{
+    font-size: 40px;
+    margin: 0 10px;;
+}
+
+.arrow-left
+{
+    align-self: flex-end;
+}
+
+
