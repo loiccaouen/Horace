@@ -804,6 +804,7 @@ nav a:hover
     flex-direction: column;
     align-items: center;
     position: relative;
+    padding: 0 15px 48px;
 }
 
 .conseils-container h2
@@ -867,4 +868,33 @@ nav a:hover
     align-self: flex-end;
 }
 
+.news-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px auto;
+    width: 70%;
+    background-color: #FFF;
+    padding: 48px 0;
+}
+
+.news-container h3
+{
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 48px 0;
+}
+
+.news-container input
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.news-container input::placeholder
+{
+    color: #0a0029;
+}
 
